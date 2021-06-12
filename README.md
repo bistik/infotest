@@ -12,7 +12,7 @@ Run:
 - `docker-compose build`
 - `docker-compose up -d`
 - `docker-compose run --rm composer install`
-- `copy src\.env.example src\.env`
+- `cp src\.env.example src\.env`
 - `docker-compose run --rm artisan migrate`
 - `docker-compose run --rm artisan db:seed --class TemplateSeeder`
 
